@@ -12,6 +12,15 @@
     border-radius: 50%;
 }
 
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    .fa {
+        width: 25px;
+        height: 25px;
+        margin: 0.5rem 0.65rem;
+    }
+  }
+
 .fa:hover {
     opacity: 0.6;
 }

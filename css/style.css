@@ -7,7 +7,6 @@ body, html {
     margin: 0;
     padding: 0;
     font-family: "Roboto Regular", Helvetica, Arial, sans-serif;
-    /* background-color: whitesmoke; */
 }
 
 body {
@@ -18,6 +17,13 @@ body {
 body::-webkit-scrollbar {
     display: none;
 }
+
+@media only screen and (max-width: 600px) {
+    /* For mobile phones: */
+    body {
+      font-size: 24px;
+    }
+  }
 
 a {
     text-decoration: none;
@@ -32,7 +38,6 @@ a {
 
 .content-block {
     padding: 10px;
-    /* margin-bottom: 10px; */
 }
 
 .content-block-container {
@@ -59,7 +64,7 @@ a {
 }
 
 .section-text-container {
-    margin: 10px;
+    margin-left: 10px;
 }
 
 .section-text-container p {
@@ -87,11 +92,11 @@ a {
 }
 
 .section-photo {
-    padding: 30px;
+    padding-right: 30px;
 }
 
 .profile-image {
     border-radius: 50%;
-    max-width: 150px;
-    max-height: 150px;
+    max-width: 200px;
+    max-height: 200px;
 }
