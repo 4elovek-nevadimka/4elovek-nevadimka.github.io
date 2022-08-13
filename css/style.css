@@ -1,12 +1,12 @@
 @font-face {
-    src: url('../fonts/Roboto-Regular.ttf');
-    font-family: "Roboto Regular";
+    src: url('../fonts/Roboto-Light.ttf');
+    font-family: "Roboto Light";
 }
 
 body, html {
     margin: 0;
     padding: 0;
-    font-family: "Roboto Regular", Helvetica, Arial, sans-serif;
+    font-family: "Roboto Light", Helvetica, Arial, sans-serif;
 }
 
 body {
@@ -88,8 +88,8 @@ a {
 
 .section-text-container__chapter {
     color: #959799;
-    margin-top: 30px;
-    margin-bottom: 10px;
+    font-weight: bold;
+    margin-top: 20px;
 }
 
 .section-photo {
@@ -119,4 +119,8 @@ a {
     border-radius: 6px;
 
     display: inline-block;
+}
+
+.section-education-year {
+    width: 100px;
 }
