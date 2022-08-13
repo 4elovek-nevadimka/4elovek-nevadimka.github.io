@@ -1,2 +1,2 @@
-# E1_HW_01_Hobby
-SkillFactory homework Unit E1 - html / css static pages about my hobby.
+# E10_HW_Resume
+SkillFactory homework Unit E10 - flexible html page.
