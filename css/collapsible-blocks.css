@@ -1,0 +1,55 @@
+.collapsible {
+    background-color: #959799;
+    color: white;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 700px) {
+
+    /* For mobile phones: */
+    .collapsible {
+        font-size: 24px;
+    }
+}
+
+.active,
+.collapsible:hover {
+    background-color: #555;
+}
+
+.collapsible:after {
+    content: '\002B';
+    color: white;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: "\2212";
+}
+
+.collapsible-content {
+    padding: 0 18px;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+    background-color: #f1f1f1;
+    margin-bottom: 10px;
+}
+
+.collapsible-content__position {
+    font-weight: 700;
+    margin: 14px 0;
+}
+
+.collapsible-content__description {
+    /* line-height: 1.5; */
+    margin-bottom: 10px;
+}
