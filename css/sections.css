@@ -1,9 +1,15 @@
 /* .profile-text {
 } */
 
-.profile-text-contacts {
+.profile-text-contacts-chapter {
     color: #959799;
     font-weight: bold;
+    margin-bottom: 0px;
+}
+
+.profile-text-contacts {
+    margin-top: 0;
+    margin-bottom: 0;
 }
 
 .profile-photo {

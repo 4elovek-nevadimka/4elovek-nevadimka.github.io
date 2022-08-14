@@ -32,6 +32,7 @@ body::-webkit-scrollbar {
 
 a {
     text-decoration: none;
+    color: #3c9df2;
 }
 
 .content {
@@ -39,6 +40,7 @@ a {
     flex-direction: column;
     margin: 0 auto;
     width: 700px;
+    height: 100%;
 }
 
 .content-block {
