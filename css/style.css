@@ -42,11 +42,7 @@ a {
 }
 
 .content-block {
-    padding: 10px;
-}
-
-.content-block-container {
-    padding: 5px;
+    padding: 15px;
 }
 
 .section-columns {
@@ -60,72 +56,30 @@ a {
     flex-direction: column;
 }
 
-.section-text {
-    padding: 0px;
-}
-
-.section-text__header {
+.section-container__header {
     color: #959799;
 }
 
-.section-text-container {
+.section-container,
+.section-container-text {
     margin: 0 10px 0 10px;
     line-height: 1.5;
 }
 
-.section-text-container p {
-    margin-bottom: 0px;
+.section-container-text p {
+    margin: 0;
 }
 
-.section-text-container ul {
+.section-container-text ul {
     margin-top: 0px;
     margin-bottom: 30px;
 }
 
-.section-text-container li {
+.section-container-text li {
     list-style: none;
 }
 
-.section-text-container li::before {
+.section-container-text li::before {
     content: "— ";
     margin-left: -15px;
-}
-
-.section-text-container__chapter {
-    color: #959799;
-    font-weight: bold;
-    margin-top: 20px;
-}
-
-.section-photo {
-    padding-right: 30px;
-}
-
-.profile-image {
-    border-radius: 50%;
-    max-width: 200px;
-    max-height: 200px;
-}
-
-.key-skill-item {
-    width: auto;
-    margin: 0 12px 12px 0;
-    display: inline-block;
-}
-
-.key-skill-item_text {
-    background-color: #edeff0;
-    line-height: 2rem;
-    border: 1px solid transparent;
-    
-    text-overflow: ellipsis;
-    box-sizing: border-box;
-    padding: 0 6px;
-    border-radius: 6px;
-
-    display: inline-block;
-}
-
-.section-education-year {
-    width: 100px;
 }

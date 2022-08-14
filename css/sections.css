@@ -1,0 +1,56 @@
+/* .profile-text {
+} */
+
+.profile-text-contacts {
+    color: #959799;
+    font-weight: bold;
+}
+
+.profile-photo {
+    padding-right: 30px;
+}
+
+.profile-image {
+    border-radius: 50%;
+    max-width: 200px;
+    max-height: 200px;
+}
+
+/* .job-title {
+} */
+
+/* .work-experience {
+} */
+
+/* .project-experience {
+} */
+
+/* .key-skills {
+} */
+
+.key-skill-item {
+    width: auto;
+    margin: 0 12px 12px 0;
+    display: inline-block;
+}
+
+.key-skill-item_text {
+    background-color: #edeff0;
+    line-height: 2rem;
+    border: 1px solid transparent;
+    
+    text-overflow: ellipsis;
+    box-sizing: border-box;
+    padding: 0 6px;
+    border-radius: 6px;
+
+    display: inline-block;
+}
+
+.education-year {
+    width: 100px;
+}
+
+.education-university p {
+    font-weight: bold;
+}
